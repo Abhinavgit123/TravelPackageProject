@@ -12,8 +12,7 @@ public class TravelConfig {
 
     @Bean
     public TravelPackage travelPackage() {
-        // Instantiate and configure TravelPackage as needed
-        return new TravelPackage("YourPackageName", 50); // Adjust constructor arguments accordingly
+        return new TravelPackage("YourPackageName", 50); 
     }
 
 }
