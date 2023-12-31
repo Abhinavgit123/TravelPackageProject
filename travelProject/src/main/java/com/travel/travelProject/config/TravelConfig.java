@@ -12,7 +12,7 @@ public class TravelConfig {
 
     @Bean
     public TravelPackage travelPackage() {
-        return new TravelPackage("YourPackageName", 50); 
+        return new TravelPackage("YourPackageName", 0); 
     }
 
 }
