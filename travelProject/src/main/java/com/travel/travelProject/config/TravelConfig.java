@@ -10,9 +10,9 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan(basePackages = "com.travel.travelProject.model")
 public class TravelConfig {
 
-    @Bean
-    public TravelPackage travelPackage() {
-        return new TravelPackage("YourPackageName", 0); 
-    }
+    // @Bean
+    // public TravelPackage travelPackage() {
+    //     return new TravelPackage("YourPackageName", 0); 
+    // }
 
 }
